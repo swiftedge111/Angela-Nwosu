@@ -37,7 +37,7 @@ To change the rate or the markup, edit `NGN_PER_USD` / `MARKUP_USD`. To switch c
 
 ### Live chat (Smartsupp)
 
-Set `NEXT_PUBLIC_SMARTSUPP_KEY` in `.env.local` and in the hosting dashboard. While it's empty, the live-chat buttons stay hidden and WhatsApp and email ordering still work.
+The Smartsupp key is built into `src/lib/site.ts`. `NEXT_PUBLIC_SMARTSUPP_KEY` can override it; either the bare key or the whole Smartsupp embed snippet works there. Live chat sits in the bottom-right corner, so the floating WhatsApp button moves to the bottom-left while live chat is on.
 
 The same Smartsupp account can serve this site and another one. Chats from this site can be told apart:
 

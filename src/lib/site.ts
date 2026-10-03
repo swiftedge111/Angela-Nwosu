@@ -1,3 +1,8 @@
+/** Accepts the bare key or the whole Smartsupp embed snippet pasted by mistake. */
+function smartsuppKeyFrom(value = "") {
+  return (value.match(/_smartsupp\.key\s*=\s*['"]([^'"]+)['"]/)?.[1] ?? value).trim();
+}
+
 export const site = {
   name: "AngieNation",
   owner: "Angela Nwosu",
@@ -15,8 +20,8 @@ export const site = {
     facebook: "https://www.facebook.com/share/184yhL9FeE/",
     youtube: "https://www.youtube.com/@angelanwosuvlog",
   },
-  /** Live chat turns on when this is set (Smartsupp dashboard → Settings → Chat box → Code). */
-  smartsuppKey: process.env.NEXT_PUBLIC_SMARTSUPP_KEY ?? "",
+  /** Smartsupp chat box key (Smartsupp dashboard → Settings → Chat box → Code). Public by design. */
+  smartsuppKey: smartsuppKeyFrom(process.env.NEXT_PUBLIC_SMARTSUPP_KEY) || "49eaec818c77ea08c5f1112fb85be04ef31968de",
   /** Optional Smartsupp group (Settings → Groups) to route this site's chats to. Expert/Ultimate plans. */
   smartsuppGroup: process.env.NEXT_PUBLIC_SMARTSUPP_GROUP ?? "",
 } as const;
