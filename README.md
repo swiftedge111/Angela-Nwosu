@@ -37,7 +37,7 @@ To change the rate or the markup, edit `NGN_PER_USD` / `MARKUP_USD`. To switch c
 
 ### Live chat (Smartsupp)
 
-The Smartsupp key is built into `src/lib/site.ts`. `NEXT_PUBLIC_SMARTSUPP_KEY` can override it; either the bare key or the whole Smartsupp embed snippet works there. The floating WhatsApp button stacks directly above the Smartsupp bubble on the right.
+The Smartsupp key is built into `src/lib/site.ts`. `NEXT_PUBLIC_SMARTSUPP_KEY` can override it; either the bare key or the whole Smartsupp embed snippet works there. The floating Email and WhatsApp buttons stack directly above the Smartsupp bubble on the right.
 
 The same Smartsupp account can serve this site and another one. Chats from this site can be told apart:
 

@@ -1,13 +1,13 @@
 import Script from "next/script";
 import { liveChatVariables } from "@/lib/live-chat";
 import { site } from "@/lib/site";
-import { WhatsAppFloat } from "./whatsapp-float";
+import { SupportButtons } from "./support-buttons";
 
-/** Floating WhatsApp button plus the Smartsupp live chat (only when a key is configured). */
+/** Floating Email and WhatsApp buttons plus the Smartsupp live chat (only when a key is configured). */
 export function ChatWidgets() {
   return (
     <>
-      <WhatsAppFloat stackAboveChat={Boolean(site.smartsuppKey)} />
+      <SupportButtons stackAboveChat={Boolean(site.smartsuppKey)} />
 
       {/* Not id="smartsupp": an element id becomes a window global and would shadow the loader. */}
       {site.smartsuppKey && (
