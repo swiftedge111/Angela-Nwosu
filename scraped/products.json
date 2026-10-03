@@ -1,0 +1,638 @@
+{
+  "pricing_rule": "usd_new = ngn_current / 1400 + 50",
+  "categories": [
+    {
+      "name": "Sacred Ritual Kits & Spiritual Sets",
+      "slug": "sacred-ritual-kits-and-spiritual-sets",
+      "product_count": 7
+    },
+    {
+      "name": "All Collections",
+      "slug": "all-collections",
+      "product_count": 17
+    },
+    {
+      "name": "Cleansing & Reset Preparations",
+      "slug": "cleansing-reset-preparations",
+      "product_count": 1
+    },
+    {
+      "name": "Crystals & Space Instruments",
+      "slug": "crystals-space-instruments",
+      "product_count": 0
+    },
+    {
+      "name": "Fortified Spiritual Tools & Accessories",
+      "slug": "fortified-spiritual-tools-and-accessories",
+      "product_count": 7
+    }
+  ],
+  "products": [
+    {
+      "id": 75861,
+      "name": "Slimming Mix",
+      "slug": "slimming-mix",
+      "sku": "AngN88375861",
+      "categories": [],
+      "short_description": "AngieNation Slimming Mix is a natural blend of very active ingredients that promotes safe fat loss, alongside eating healthy and discipline. You are on your way to a healthier lifestyle and slimmer body.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 70049,
+        "usd_new": 100.04,
+        "usd_currently_on_site": 53.0
+      },
+      "images": [
+        {
+          "file": "images/products/slimming-mix/01.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/08/Slimming-Mix_085855.jpeg",
+          "alt": "Slimming Mix"
+        }
+      ],
+      "original_url": "https://angienation.com/product/slimming-mix/"
+    },
+    {
+      "id": 74909,
+      "name": "Money Magnet Bracelet",
+      "slug": "money-magnet-bracelet",
+      "sku": "AngN76474909",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "This money magnet bracelet is specially fortified to align your mindset and daily energy with money. Combined prosperity-focused crystals to help you manifest money luck, career growth, reduce financial stress, boost confidence, and attract new income opportunities. It is fortified with the buyer’s name for more focused effect.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 132168,
+        "usd_new": 144.41,
+        "usd_currently_on_site": 100.0
+      },
+      "images": [
+        {
+          "file": "images/products/money-magnet-bracelet/01.webp",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/06/MMB-1.webp",
+          "alt": "MMB 1"
+        },
+        {
+          "file": "images/products/money-magnet-bracelet/02.webp",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/06/MMB-2.webp",
+          "alt": "MMB 2"
+        }
+      ],
+      "original_url": "https://angienation.com/product/money-magnet-bracelet/"
+    },
+    {
+      "id": 74073,
+      "name": "Prosperity Oil",
+      "slug": "prosperity-oil",
+      "sku": "",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "Carefully sourced from natural oils and essences known for their traditional association with prosperity, success, and financial growth, this blend is created to support your journey in business and abundance.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 145385,
+        "usd_new": 153.85,
+        "usd_currently_on_site": 110.0
+      },
+      "images": [
+        {
+          "file": "images/products/prosperity-oil/01.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/04/img_3484.jpeg",
+          "alt": "Prosperity Oil"
+        },
+        {
+          "file": "images/products/prosperity-oil/02.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/04/img_3485.jpeg",
+          "alt": "Prosperity Oil"
+        },
+        {
+          "file": "images/products/prosperity-oil/03.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/04/img_3486.jpeg",
+          "alt": "Prosperity Oil"
+        }
+      ],
+      "original_url": "https://angienation.com/product/prosperity-oil/"
+    },
+    {
+      "id": 74069,
+      "name": "Marriage Intention Kit",
+      "slug": "marriage-intention-kit",
+      "sku": "",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "A consecrated intention-setting kit created to draw divine partnership, restore peace in marriage, and remove spiritual blockages affecting love, commitment, and emotional connection.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 264336,
+        "usd_new": 238.81,
+        "usd_currently_on_site": 200.0
+      },
+      "images": [
+        {
+          "file": "images/products/marriage-intention-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/mik-1.avif",
+          "alt": "Marriage Intention Kit"
+        },
+        {
+          "file": "images/products/marriage-intention-kit/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/mik-2.avif",
+          "alt": "Marriage Intention Kit"
+        },
+        {
+          "file": "images/products/marriage-intention-kit/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/mik-3.avif",
+          "alt": "Marriage Intention Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/marriage-intention-kit/"
+    },
+    {
+      "id": 73416,
+      "name": "Attraction Soap",
+      "slug": "attraction-soap",
+      "sku": "",
+      "categories": [],
+      "short_description": "Our Attraction Soap is a spiritually prepared cleansing bar created to help align your energy with favour, abundance, love, and opportunities. Each bar is intentionally formulated and spiritually charged using natural ingredients, herbs, and ancestral principles to support energetic cleansing and attraction work. This soap is designed for those who understand that what you carry energetically determines what you attract physically.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 89874,
+        "usd_new": 114.2,
+        "usd_currently_on_site": 68.0
+      },
+      "images": [
+        {
+          "file": "images/products/attraction-soap/01.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/02/img_2862.jpeg",
+          "alt": "Attraction Soap"
+        },
+        {
+          "file": "images/products/attraction-soap/02.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/02/img_2863.jpeg",
+          "alt": "Attraction Soap"
+        }
+      ],
+      "original_url": "https://angienation.com/product/attraction-soap/"
+    },
+    {
+      "id": 73414,
+      "name": "Liberation Soap",
+      "slug": "liberation-soap",
+      "sku": "",
+      "categories": [
+        {
+          "name": "Cleansing & Reset Preparations",
+          "slug": "cleansing-reset-preparations"
+        }
+      ],
+      "short_description": "Liberation Soap is a spiritually prepared cleansing bar created to cleanse harmful energy and guard your spirit from ill intentions. Handcrafted with spiritual precision and focused intention, it supports goodluck, spiritual protection, clarity of mind, and a return to inner peace.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 89874,
+        "usd_new": 114.2,
+        "usd_currently_on_site": 68.0
+      },
+      "images": [
+        {
+          "file": "images/products/liberation-soap/01.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/02/img_2866.jpeg",
+          "alt": "Liberation Soap"
+        },
+        {
+          "file": "images/products/liberation-soap/02.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/02/img_2864.jpeg",
+          "alt": "Liberation Soap"
+        },
+        {
+          "file": "images/products/liberation-soap/03.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/02/img_2865.jpeg",
+          "alt": "Liberation Soap"
+        }
+      ],
+      "original_url": "https://angienation.com/product/liberation-soap/"
+    },
+    {
+      "id": 72371,
+      "name": "Fortified Premium Goodluck Waistbeads",
+      "slug": "fortified-premium-goodluck-waistbeads",
+      "sku": "AngN28672371",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "Super charged waist beads, prepared to connect your Aura to favor, good luck, and to remove all blockages attached to your being through intimacy. Each set is specially fortified with the buyer’s name and date of birth, for focused flow of favor and protection.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 132168,
+        "usd_new": 144.41,
+        "usd_currently_on_site": 100.0
+      },
+      "images": [
+        {
+          "file": "images/products/fortified-premium-goodluck-waistbeads/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/pfeew-1.avif",
+          "alt": "Fortified Premium Goodluck Waistbeads"
+        },
+        {
+          "file": "images/products/fortified-premium-goodluck-waistbeads/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/pfeew-2.avif",
+          "alt": "Fortified Premium Goodluck Waistbeads"
+        },
+        {
+          "file": "images/products/fortified-premium-goodluck-waistbeads/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/pfeew-3.avif",
+          "alt": "Fortified Premium Goodluck Waistbeads"
+        }
+      ],
+      "original_url": "https://angienation.com/product/fortified-premium-goodluck-waistbeads/"
+    },
+    {
+      "id": 72203,
+      "name": "Fortified Evil Eye Protection Bracelet",
+      "slug": "fortified-evil-eye-protection-bracelet",
+      "sku": "AngN44572203",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "Prepared for protection against the evil eye, jealousy, and negative intentions. Each bracelet is specifically fortified with the buyer’s name and date of birth to deflect harmful energy and preserve peace and spiritual safety.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 66084,
+        "usd_new": 97.2,
+        "usd_currently_on_site": 50.0
+      },
+      "images": [
+        {
+          "file": "images/products/fortified-evil-eye-protection-bracelet/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/feepb-1.avif",
+          "alt": "Fortified Evil Eye Protection Bracelet"
+        },
+        {
+          "file": "images/products/fortified-evil-eye-protection-bracelet/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/feepb-2.avif",
+          "alt": "Fortified Evil Eye Protection Bracelet"
+        },
+        {
+          "file": "images/products/fortified-evil-eye-protection-bracelet/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/feepb-3.avif",
+          "alt": "Fortified Evil Eye Protection Bracelet"
+        }
+      ],
+      "original_url": "https://angienation.com/product/fortified-evil-eye-protection-bracelet/"
+    },
+    {
+      "id": 72201,
+      "name": "Fortified Tiger Eye Bracelet",
+      "slug": "fortified-tiger-eye-bracelet",
+      "sku": "AngN48472201",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "Infused with grounding and protective energy to strengthen courage, confidence, focus, and inner power. Each bracelet is specifically fortified with the buyer’s name and date of birth to provide personalized spiritual protection.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 105734,
+        "usd_new": 125.52,
+        "usd_currently_on_site": 80.0
+      },
+      "images": [
+        {
+          "file": "images/products/fortified-tiger-eye-bracelet/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/AngieN-tiger-eye-beads-1.avif",
+          "alt": "Fortified Tiger Eye Bracelet"
+        },
+        {
+          "file": "images/products/fortified-tiger-eye-bracelet/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/fteb-2.avif",
+          "alt": "Fortified Tiger Eye Bracelet"
+        },
+        {
+          "file": "images/products/fortified-tiger-eye-bracelet/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/fteb-3.avif",
+          "alt": "Fortified Tiger Eye Bracelet"
+        }
+      ],
+      "original_url": "https://angienation.com/product/fortified-tiger-eye-bracelet/"
+    },
+    {
+      "id": 72200,
+      "name": "Fortified Ruby and Emerald Waistbead",
+      "slug": "fortified-ruby-and-emerald-waistbead",
+      "sku": "AngN51272200",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "A sacred waistbead, woven with Ruby and Emerald to awaken life force, protect your aura, and align you with abundance. Fortified with the buyer’s name, Ruby ignites passion and strength, while Emerald opens the heart to prosperity, harmony and divine favour.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 158602,
+        "usd_new": 163.29,
+        "usd_currently_on_site": 120.0
+      },
+      "images": [
+        {
+          "file": "images/products/fortified-ruby-and-emerald-waistbead/01.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/img_3018.jpeg",
+          "alt": "Fortified Ruby and Emerald Waistbead"
+        },
+        {
+          "file": "images/products/fortified-ruby-and-emerald-waistbead/02.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/img_3019.jpeg",
+          "alt": "Fortified Ruby and Emerald Waistbead"
+        },
+        {
+          "file": "images/products/fortified-ruby-and-emerald-waistbead/03.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/img_3020.jpeg",
+          "alt": "Fortified Ruby and Emerald Waistbead"
+        }
+      ],
+      "original_url": "https://angienation.com/product/fortified-ruby-and-emerald-waistbead/"
+    },
+    {
+      "id": 72199,
+      "name": "Love & Peace Ritual Kit",
+      "slug": "love-peace-ritual-kit",
+      "sku": "AngN85672199",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "A sacred kit created to attract love, restore peace in relationships, heal emotional tension, and remove energetic conflicts. It supports emotional stability, understanding, and lasting connection.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 264336,
+        "usd_new": 238.81,
+        "usd_currently_on_site": 200.0
+      },
+      "images": [
+        {
+          "file": "images/products/love-peace-ritual-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/lprt-1.avif",
+          "alt": "Love & Peace Ritual Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/love-peace-ritual-kit/"
+    },
+    {
+      "id": 72197,
+      "name": "Liberation Ritual Kit",
+      "slug": "liberation-ritual-kit",
+      "sku": "AngN91572197",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "A deeply transformative kit crafted for spiritual release and renewal. It is used to break negative cycles, ancestral limitations, emotional heaviness, and unseen spiritual restraints, opening the way for freedom and rebirth.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 376679,
+        "usd_new": 319.06,
+        "usd_currently_on_site": 285.0
+      },
+      "images": [
+        {
+          "file": "images/products/liberation-ritual-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/lrk-1.avif",
+          "alt": "Liberation Ritual Kit"
+        },
+        {
+          "file": "images/products/liberation-ritual-kit/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/lrk-2.avif",
+          "alt": "Liberation Ritual Kit"
+        },
+        {
+          "file": "images/products/liberation-ritual-kit/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/lrk-3.avif",
+          "alt": "Liberation Ritual Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/liberation-ritual-kit/"
+    },
+    {
+      "id": 72196,
+      "name": "Abundance Ritual Kit",
+      "slug": "abundance-ritual-kit",
+      "sku": "AngN11272196",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "A sacred ritual kit designed to activate prosperity, financial stability, and sustained blessings. It works to dissolve scarcity patterns and align your energy with abundance in all forms.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 264336,
+        "usd_new": 238.81,
+        "usd_currently_on_site": 200.0
+      },
+      "images": [
+        {
+          "file": "images/products/abundance-ritual-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/ark-1.avif",
+          "alt": "Abundance Ritual Kit"
+        },
+        {
+          "file": "images/products/abundance-ritual-kit/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/ark-2.avif",
+          "alt": "Abundance Ritual Kit"
+        },
+        {
+          "file": "images/products/abundance-ritual-kit/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/ark-3.avif",
+          "alt": "Abundance Ritual Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/abundance-ritual-kit/"
+    },
+    {
+      "id": 72195,
+      "name": "Attraction Oil",
+      "slug": "attraction-oil",
+      "sku": "AngN12872732",
+      "categories": [
+        {
+          "name": "Fortified Spiritual Tools & Accessories",
+          "slug": "fortified-spiritual-tools-and-accessories"
+        }
+      ],
+      "short_description": "Sourced from carefully selected natural oils and essences, this blend is created with intention, purity, and spiritual awareness. Each ingredient is chosen for its energetic properties traditionally associated with attracting love, good fortune, success, and positive energy.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 145385,
+        "usd_new": 153.85,
+        "usd_currently_on_site": 110.0
+      },
+      "images": [
+        {
+          "file": "images/products/attraction-oil/01.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/img_3481.jpeg",
+          "alt": "Attraction Oil"
+        },
+        {
+          "file": "images/products/attraction-oil/02.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/img_3482.jpeg",
+          "alt": "Attraction Oil"
+        },
+        {
+          "file": "images/products/attraction-oil/03.jpeg",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/img_3483.jpeg",
+          "alt": "Attraction Oil"
+        }
+      ],
+      "original_url": "https://angienation.com/product/attraction-oil/"
+    },
+    {
+      "id": 72194,
+      "name": "Goodluck Prayer Kit",
+      "slug": "goodluck-prayer-kit",
+      "sku": "AngN14572194",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "A spiritually prepared prayer kit for attracting divine favor, open doors, and aligned opportunities. When used with intention, it harmonizes your path with blessings meant for you by destiny.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 264336,
+        "usd_new": 238.81,
+        "usd_currently_on_site": 200.0
+      },
+      "images": [
+        {
+          "file": "images/products/goodluck-prayer-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/glpk-1.avif",
+          "alt": "Goodluck Prayer Kit"
+        },
+        {
+          "file": "images/products/goodluck-prayer-kit/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/glpk-2.avif",
+          "alt": "Goodluck Prayer Kit"
+        },
+        {
+          "file": "images/products/goodluck-prayer-kit/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/glpk-3.avif",
+          "alt": "Goodluck Prayer Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/goodluck-prayer-kit/"
+    },
+    {
+      "id": 72193,
+      "name": "Aura Cleansing Kit",
+      "slug": "aura-cleansing-kit",
+      "sku": "AngN18472193",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "Designed to purify, strengthen, and seal the aura. This kit clears energetic stains, emotional residue, and spiritual interference, allowing your natural light, protection, and attraction power to flow freely once again.",
+      "description": "",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 264336,
+        "usd_new": 238.81,
+        "usd_currently_on_site": 200.0
+      },
+      "images": [
+        {
+          "file": "images/products/aura-cleansing-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/ack-1b.avif",
+          "alt": "Aura Cleansing Kit"
+        },
+        {
+          "file": "images/products/aura-cleansing-kit/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/ack-2.avif",
+          "alt": "Aura Cleansing Kit"
+        },
+        {
+          "file": "images/products/aura-cleansing-kit/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/ack-3.avif",
+          "alt": "Aura Cleansing Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/aura-cleansing-kit/"
+    },
+    {
+      "id": 72192,
+      "name": "Energy Cleansing Kit",
+      "slug": "energy-cleansing-kit",
+      "sku": "AngN44972192",
+      "categories": [
+        {
+          "name": "Sacred Ritual Kits & Spiritual Sets",
+          "slug": "sacred-ritual-kits-and-spiritual-sets"
+        }
+      ],
+      "short_description": "A sacred cleansing set created to dissolve heavy, stagnant, and negative energies from the spirit. This kit works deeply to restore energetic balance, calm emotional turbulence, and realign you with inner peace and clarity.",
+      "description": "A sacred cleansing set created to dissolve heavy, stagnant, and negative energies from the spirit. This kit works deeply to restore energetic balance, calm emotional turbulence, and realign you with inner peace and clarity.",
+      "in_stock": true,
+      "price": {
+        "ngn_current": 264336,
+        "usd_new": 238.81,
+        "usd_currently_on_site": 200.0
+      },
+      "images": [
+        {
+          "file": "images/products/energy-cleansing-kit/01.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/eck-1.avif",
+          "alt": "Energy Cleansing Kit"
+        },
+        {
+          "file": "images/products/energy-cleansing-kit/02.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/eck-2.avif",
+          "alt": "Energy Cleansing Kit"
+        },
+        {
+          "file": "images/products/energy-cleansing-kit/03.avif",
+          "source_url": "https://angienation.com/wp-content/uploads/2026/01/eck-3.avif",
+          "alt": "Energy Cleansing Kit"
+        }
+      ],
+      "original_url": "https://angienation.com/product/energy-cleansing-kit/"
+    }
+  ]
+}
