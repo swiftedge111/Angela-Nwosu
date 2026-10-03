@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { ChannelButtons, getChannel, sendResultNote, sendVia, type SendResult } from "./send-channels";
+import { ChannelButtons, getChannel, SendStatus, sendVia, type SendResult } from "./send-channels";
 
 const field =
   "w-full rounded-2xl border border-forest-900/15 bg-white px-4 text-sm outline-none transition placeholder:text-muted/60 focus:border-forest-700";
 
 export function ContactForm() {
-  const [result, setResult] = useState<SendResult | null>(null);
+  const [sent, setSent] = useState<{ result: SendResult; message: string; id: number } | null>(null);
 
   async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -17,7 +17,8 @@ export function ContactForm() {
     const email = String(data.get("email") ?? "").trim();
     const message = String(data.get("message") ?? "").trim();
     const text = [`Hello AngieNation, this is ${name}${email ? ` (${email})` : ""}.`, "", message].join("\n");
-    setResult(await sendVia(channel, text, `Message from ${name}`));
+    const result = await sendVia(channel, text, `Message from ${name}`);
+    setSent({ result, message: text, id: Date.now() });
   }
 
   return (
@@ -37,13 +38,9 @@ export function ContactForm() {
         <textarea name="message" required rows={5} placeholder="Your message *" className={`${field} resize-none py-3`} />
       </label>
       <div className="pt-3">
-        <ChannelButtons />
+        <ChannelButtons noun="message" />
       </div>
-      {result && (
-        <p role="status" className="rounded-2xl bg-sage-100 px-4 py-3 text-sm text-forest-800">
-          {result === "opened" ? "Your message is ready. Just press send." : sendResultNote(result)}
-        </p>
-      )}
+      {sent && <SendStatus key={sent.id} result={sent.result} message={sent.message} noun="message" />}
     </form>
   );
 }

@@ -16,15 +16,13 @@ export const liveChatEnabled = Boolean(site.smartsuppKey);
 export const liveChatVariables = { Website: `${site.owner} (${new URL(site.url).host})` };
 
 /**
- * Opens the Smartsupp chat with the order typed into the message box (not sent)
- * and attached to the visitor as a variable.
+ * Opens the Smartsupp chat. The customer pastes the order themselves: typing it
+ * in for them (`chat:message` / `chat:send`) needs the Expert/Ultimate plan.
+ * The order is also attached as a visitor variable, shown on those plans.
  */
 export function openLiveChat(order?: string) {
   if (typeof window === "undefined" || !window.smartsupp) return false;
-  if (order) {
-    window.smartsupp("variables", { ...liveChatVariables, Order: order });
-    window.smartsupp("chat:message", order);
-  }
+  if (order) window.smartsupp("variables", { ...liveChatVariables, Order: order });
   window.smartsupp("chat:open");
   return true;
 }

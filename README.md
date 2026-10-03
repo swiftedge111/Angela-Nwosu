@@ -42,9 +42,9 @@ The Smartsupp key is built into `src/lib/site.ts`. `NEXT_PUBLIC_SMARTSUPP_KEY` c
 The same Smartsupp account can serve this site and another one. Chats from this site can be told apart:
 
 - **Any plan:** the visitor's browsing history in Smartsupp shows the pages they're on (hover a page title to see its `angelanwosu.com` URL), and order messages start with "Hello AngieNation!".
-- **Expert / Ultimate plans** (Smartsupp's JavaScript API): every visitor gets a `Website: Angela Nwosu (angelanwosu.com)` variable in the visitor info panel. Orders sent via live chat are typed into the chat box and attached as an `Order` variable. Setting `NEXT_PUBLIC_SMARTSUPP_GROUP` routes this site's chats to their own Smartsupp group (Settings → Groups).
+- **Expert / Ultimate plans** (Smartsupp's JavaScript API): every visitor gets a `Website: Angela Nwosu (angelanwosu.com)` variable in the visitor info panel, and orders are attached as an `Order` variable. Setting `NEXT_PUBLIC_SMARTSUPP_GROUP` routes this site's chats to their own Smartsupp group (Settings → Groups).
 
-On plans without the JavaScript API, the order is also copied so the customer can paste it.
+Ordering by live chat is copy and paste: the site copies the order, opens the chat, and shows the customer step-by-step paste instructions. Her current plan can't type into the chat for the customer. On Expert/Ultimate, `chat:send` in `src/lib/live-chat.ts` could send the order automatically.
 
 ### Domain and old site URLs
 

@@ -10,7 +10,7 @@ import { site } from "@/lib/site";
 import { button } from "@/lib/ui";
 import { orderSteps } from "../order-steps";
 import { QuantityStepper } from "../quantity-stepper";
-import { ChannelButtons, getChannel, sendResultNote, sendVia, type SendResult } from "../send-channels";
+import { ChannelButtons, getChannel, SendStatus, sendVia, type SendResult } from "../send-channels";
 import { useCart } from "./cart-provider";
 
 const countries = ["United States", "Nigeria", "United Arab Emirates", "Other"];
@@ -20,7 +20,7 @@ const field =
 
 export function CartView() {
   const { lines, orderLines, subtotalCents, setQuantity, remove, clear, count } = useCart();
-  const [result, setResult] = useState<SendResult | null>(null);
+  const [sent, setSent] = useState<{ result: SendResult; message: string; id: number } | null>(null);
 
   if (lines.length === 0) {
     return (
@@ -49,7 +49,8 @@ export function CartView() {
       note: String(data.get("note") ?? "").trim(),
     };
     const message = buildOrderMessage(orderLines, details);
-    setResult(await sendVia(channel, message, `New order from ${details.name}`));
+    const result = await sendVia(channel, message, `New order from ${details.name}`);
+    setSent({ result, message, id: Date.now() });
   }
 
   return (
@@ -177,11 +178,7 @@ export function CartView() {
             <ChannelButtons whatsappLabel="Send order on WhatsApp" />
           </div>
 
-          {result && (
-            <p role="status" className="mt-5 rounded-2xl bg-sage-100 px-4 py-3 text-sm text-forest-800">
-              {sendResultNote(result)}
-            </p>
-          )}
+          {sent && <SendStatus key={sent.id} result={sent.result} message={sent.message} noun="order" />}
 
           <p className="mt-6 flex gap-2.5 text-xs leading-relaxed text-muted">
             <LuShieldCheck className="size-4 shrink-0 text-forest-700" />
