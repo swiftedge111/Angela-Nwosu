@@ -7,7 +7,7 @@ import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: `Reach ${site.name} on WhatsApp, by email or on Instagram. Orders, enquiries and complaints welcome.`,
+  description: `Reach ${site.name} on WhatsApp, by email or on TikTok. Orders, enquiries and complaints welcome.`,
   alternates: { canonical: "/contact" },
 };
 

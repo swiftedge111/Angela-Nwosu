@@ -1,6 +1,7 @@
 "use client";
 
-import { FaInstagram, FaWhatsapp } from "react-icons/fa6";
+import { FaTiktok, FaWhatsapp } from "react-icons/fa6";
+// import { FaInstagram } from "react-icons/fa6";
 import { LuArrowUpRight, LuMail, LuMessageCircle } from "react-icons/lu";
 import { liveChatEnabled, openLiveChat } from "@/lib/live-chat";
 import { whatsappUrl } from "@/lib/order";
@@ -64,6 +65,18 @@ export function ContactChannels() {
         </a>
       </li>
       <li>
+        <a href={site.socials.tiktok} target="_blank" rel="noopener noreferrer" className={card}>
+          <CardBody
+            Icon={FaTiktok}
+            iconClass="bg-forest-950/[0.06] text-ink"
+            title="TikTok"
+            detail={site.socials.tiktokHandle}
+            body="Follow along and send us a DM."
+          />
+        </a>
+      </li>
+      {/* Hidden for now (see site.ts):
+      <li>
         <a href={site.socials.instagram} target="_blank" rel="noopener noreferrer" className={card}>
           <CardBody
             Icon={FaInstagram}
@@ -73,7 +86,7 @@ export function ContactChannels() {
             body="Follow along and send us a DM."
           />
         </a>
-      </li>
+      </li> */}
     </ul>
   );
 }

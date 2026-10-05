@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { FaFacebookF, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa6";
+import { FaTiktok, FaWhatsapp } from "react-icons/fa6";
+// import { FaFacebookF, FaInstagram, FaYoutube } from "react-icons/fa6";
 import { LuMail, LuMapPin } from "react-icons/lu";
 import { categories } from "@/data/categories";
 import { whatsappUrl } from "@/lib/order";
@@ -8,9 +9,11 @@ import { site } from "@/lib/site";
 import { Logo } from "./logo";
 
 const socials = [
-  { href: site.socials.instagram, label: "Instagram", Icon: FaInstagram },
-  { href: site.socials.facebook, label: "Facebook", Icon: FaFacebookF },
-  { href: site.socials.youtube, label: "YouTube", Icon: FaYoutube },
+  { href: site.socials.tiktok, label: "TikTok", Icon: FaTiktok },
+  // Hidden for now (see site.ts):
+  // { href: site.socials.instagram, label: "Instagram", Icon: FaInstagram },
+  // { href: site.socials.facebook, label: "Facebook", Icon: FaFacebookF },
+  // { href: site.socials.youtube, label: "YouTube", Icon: FaYoutube },
 ];
 
 export function Footer() {
